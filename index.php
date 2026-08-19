@@ -7,9 +7,6 @@
     <link rel="icon" href="Css\hit.png">
     <link rel="stylesheet" href="Css\style.css">
 
-</head>
-
-<body>
     <header>
         <h1 style="margin-left: 120px;margin-top: 30px;">HitBox</h1>
     <img src="Css\hit.png" style="margin-left: 10px; margin-top: -60px;" height="90" width="90" alt="Logo HitBox">
@@ -22,7 +19,6 @@
       <li><a href="#">Cultura Pop</a></li>
     </ul>
   </nav>
-
 <button class="menu_lateral" id="btnSidebarToggle" type="button" title="Abrir Menu">
     <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
         <line x1="6" y1="8" x2="26" y2="8" />
@@ -52,8 +48,14 @@
             </ul>
         </nav>
     </aside>
- 
+</header>
+</head>
 
+<body>
+   
+
+ 
+</body>
 <!-- O JavaScprit da página-->
 <script>
         const btnToggle = document.getElementById('btnSidebarToggle');
@@ -68,5 +70,4 @@
             sidebar.classList.remove('active');
         });
     </script>
-</body>
 </body>
